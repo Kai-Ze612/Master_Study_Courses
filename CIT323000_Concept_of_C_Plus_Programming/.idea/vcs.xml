@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a00" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a03" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a04" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a05" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a06" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a07" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a08" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a09" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a10" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/a13" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mock-exam" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/solutions/a00" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/solutions/a01" vcs="Git" />
+  </component>
+</project>
