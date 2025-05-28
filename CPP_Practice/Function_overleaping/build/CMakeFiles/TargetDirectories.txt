@@ -1,0 +1,3 @@
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/Function_overleaping/build/CMakeFiles/function_overleaping.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/Function_overleaping/build/CMakeFiles/edit_cache.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/Function_overleaping/build/CMakeFiles/rebuild_cache.dir
