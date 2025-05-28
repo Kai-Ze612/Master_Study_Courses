@@ -1,0 +1,3 @@
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/C++_Practice/Function_1/build/CMakeFiles/function_1.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/C++_Practice/Function_1/build/CMakeFiles/edit_cache.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/C++_Practice/Function_1/build/CMakeFiles/rebuild_cache.dir
