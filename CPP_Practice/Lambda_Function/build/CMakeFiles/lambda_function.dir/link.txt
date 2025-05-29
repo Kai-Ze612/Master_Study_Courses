@@ -1,0 +1,1 @@
+clang++-18  -stdlib=libc++ -Wextra -Wall -Werror CMakeFiles/lambda_function.dir/src/main.cpp.o -o lambda_function

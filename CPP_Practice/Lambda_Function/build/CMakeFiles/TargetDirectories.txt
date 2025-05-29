@@ -1,0 +1,3 @@
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/Lambda_Function/build/CMakeFiles/lambda_function.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/Lambda_Function/build/CMakeFiles/edit_cache.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/Lambda_Function/build/CMakeFiles/rebuild_cache.dir

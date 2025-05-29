@@ -1,0 +1,1 @@
+clang++-18  -stdlib=libc++ -Wextra -Wall -Werror CMakeFiles/Array_And_Vectors.dir/src/main.cpp.o -o Array_And_Vectors

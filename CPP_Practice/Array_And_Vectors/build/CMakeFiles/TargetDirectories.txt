@@ -1,0 +1,3 @@
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/Array_And_Vectors/build/CMakeFiles/Array_And_Vectors.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/Array_And_Vectors/build/CMakeFiles/edit_cache.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/Array_And_Vectors/build/CMakeFiles/rebuild_cache.dir
