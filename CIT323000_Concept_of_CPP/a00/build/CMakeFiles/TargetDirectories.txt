@@ -1,0 +1,3 @@
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CIT323000_Concept_of_CPP/a00/build/CMakeFiles/a00.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CIT323000_Concept_of_CPP/a00/build/CMakeFiles/edit_cache.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CIT323000_Concept_of_CPP/a00/build/CMakeFiles/rebuild_cache.dir

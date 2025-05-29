@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CIT323000_Concept_of_CPP/a00/build",
+  "command": "clang++-18   -Wall -Wextra -Wpedantic -Werror -stdlib=libc++ -Wextra -Wall -Werror -g -g -O0 -std=gnu++23 -o CMakeFiles/a00.dir/src/main.cpp.o -c /media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CIT323000_Concept_of_CPP/a00/src/main.cpp",
+  "file": "/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CIT323000_Concept_of_CPP/a00/src/main.cpp",
+  "output": "CMakeFiles/a00.dir/src/main.cpp.o"
+}
+]

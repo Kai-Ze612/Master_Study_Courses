@@ -1,0 +1,1 @@
+clang++-18 -Wall -Wextra -Wpedantic -Werror -stdlib=libc++ -Wextra -Wall -Werror -g -g -O0 CMakeFiles/a00.dir/src/main.cpp.o -o a00
