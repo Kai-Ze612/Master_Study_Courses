@@ -1,0 +1,3 @@
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/OOP_1/build/CMakeFiles/OOP_1.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/OOP_1/build/CMakeFiles/edit_cache.dir
+/media/kai/Kai_Backup/Master_Study/Practical_Project/Master_Study_Courses/CPP_Practice/OOP_1/build/CMakeFiles/rebuild_cache.dir
