@@ -9,7 +9,7 @@ class Reprojection(UnitTest):
         data = np.load("data/data.npz")
         self.pix = data["pixels"]
         self.distances = data["distances"]
-        self.relative_pose = get_relative_pose(data["pose_1"], data["pose_2"])
+        self.relative_pose = compute_relative_pose(data["pose_1"], data["pose_2"])
         self.ref_pix = data["reprojected_pixels_1"] if camType=="pinhole" else data["reprojected_pixels_2"]
         self.output = None
     def test(self):

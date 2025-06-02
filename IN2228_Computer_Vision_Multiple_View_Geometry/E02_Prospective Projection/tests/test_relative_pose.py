@@ -11,15 +11,15 @@ class RelativePose(UnitTest):
         self.pose_2 = data["pose_2"]
         self.output = None
     def test(self):
-        relative_pose = get_relative_pose(self.pose_1,self.pose_2)
+        relative_pose = compute_relative_pose(self.pose_1, self.pose_2)
         self.output = relative_pose
-        return np.allclose(relative_pose,self.relative_pose)
+        return np.allclose(relative_pose, self.relative_pose)
 
     def define_success_message(self):
         return f"Congratulations: You passed the test case for the relative pose."
 
     def define_failure_message(self):
-        return f"The output of the relative pose is incorrect (expected {self.ref_pix}, got {self.output})."
+        return f"The output of the relative pose is incorrect (expected {self.relative_pose}, got {self.output})."
 
 
 

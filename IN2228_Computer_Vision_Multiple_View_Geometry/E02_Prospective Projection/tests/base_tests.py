@@ -42,6 +42,7 @@ class UnitTest(ABC):
         """Define the message that should be printed upon test success"""
         return "%s passed." % type(self).__name__
 
+    def define_exception_message(self, exception):
         """
         Define the message that should be printed if an exception occurs
         :param exception: exception that was thrown
