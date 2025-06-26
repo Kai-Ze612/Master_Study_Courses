@@ -2,55 +2,29 @@ import numpy as np
 from exercise_code.utils import getM, getGradients, getTemporalPartialDerivative, getq
 
 def getFlow(M, q, points):
-    """
-    CORRECTED: Calculate optical flow with proper signs
-    """
-    H, W = M.shape[:2]
-    
-    # Extract structure tensor elements (vectorized)
-    M11 = M[:, :, 0, 0]
-    M12 = M[:, :, 0, 1] 
-    M22 = M[:, :, 1, 1]
-    
-    # Extract q vector elements
-    q1 = q[:, :, 0]
-    q2 = q[:, :, 1]
-    
-    # Compute determinant vectorized
-    det_M = M11 * M22 - M12 * M12
-    
-    # Create mask for valid pixels (better conditioning check)
-    eigenvalues = np.zeros((H, W, 2))
-    for i in range(H):
-        for j in range(W):
-            eigenvalues[i, j] = np.linalg.eigvals(M[i, j])
-    
-    min_eigenvalues = np.min(eigenvalues, axis=2)
-    valid_mask = min_eigenvalues > 1e-4  # Better than determinant check
-    
-    # Initialize flow
-    u = np.zeros_like(det_M)
-    v = np.zeros_like(det_M)
-    
-    # Solve using Cramer's rule (vectorized)
-    # M * [u, v]^T = -[q1, q2]^T
-    u[valid_mask] = (M22[valid_mask] * (-q1[valid_mask]) - M12[valid_mask] * (-q2[valid_mask])) / det_M[valid_mask]
-    v[valid_mask] = (M11[valid_mask] * (-q2[valid_mask]) - M12[valid_mask] * (-q1[valid_mask])) / det_M[valid_mask]
-    
-    # Stack into flow field
-    flow = np.stack([u, v], axis=-1)
-    
-    # Apply magnitude scaling for better accuracy
-    flow = flow * 0.6  # Calibration factor - experiment with this!
-    
-    # Extract flow at points
-    v_points = np.zeros((len(points), 2))
-    for idx, point in enumerate(points):
-        x, y = int(point[0]), int(point[1])
-        if 0 <= x < H and 0 <= y < W:
-            v_points[idx] = flow[x, y]
-    
-    return flow, v_points
+    # Calculate the flow between two images
+    # Input:
+    # M: numpy.ndarray (structure tensor) of shape (H, W, 2, 2)
+    # q: numpy.ndarray (q vector) of shape (H, W, 2)
+    # points: numpy.ndarray (points) of shape (N, 2)
+    # Output:
+    # v: numpy.ndarray (flow) of shape (H, W, 2)
+    # v_points: numpy.ndarray (flow for the points) of shape (N, 2)
+
+    ########################################################################
+    # TODO:                                                                #
+    # Calculate the flow for each point by solving the linear system.      #
+    #                                                                      #
+    ########################################################################
+
+
+    pass
+
+    ########################################################################
+    #                           END OF YOUR CODE                           #
+    ########################################################################
+
+    return v, v_points
 
 
 def compute_flow(im1_gray, im2_gray):
